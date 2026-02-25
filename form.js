@@ -2,10 +2,10 @@ document.getElementById("registroform").addEventListener("submit", function(e){
     e.preventDefault();
 
     const datos = {
-        nombre : document.getElementById("nombre").value,
-        apellido : document.getElementById("apellido").value,
-        edad : document.getElementById("edad").value,
-        email : document.getElementById("email").value,
+        Nombre : document.getElementById("nombre").value,
+        Apellido : document.getElementById("apellido").value,
+        Edad : document.getElementById("edad").value,
+        Email : document.getElementById("email").value,
     };
 
     console.log("Datos enviados", datos);
